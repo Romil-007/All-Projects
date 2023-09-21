@@ -1,13 +1,16 @@
+//Including the library
 #include <iostream>
 
+//Standard namespace to be used
 using namespace std;
 
 
-
+//Class for getting data and maintaining the objects
 class Student{
 
     public:
 
+        //Initializing some value
         int a  ;
 
         int sem1 , sem2 , sem3 , sem4 , sem5  ;
@@ -15,6 +18,7 @@ class Student{
 
         string name;
 
+        //Will take inputs from user and store it 
         void getdata (){
             cout<< "Name : \n";
             cin>> name;
@@ -37,6 +41,7 @@ class Student{
             average =(sem1+sem2+sem3+sem4+sem5)/5;
         }
 
+        //Checking eligiblity if the student is pass or not
         bool eligiblitycheck(){
 
             if (average>=70.00 && sem1 >= 60 && sem2 >= 60 && sem3 >= 60 && sem4 >= 60 && sem5 >= 60){
@@ -48,6 +53,7 @@ class Student{
         }
 
 
+        //Displaying data of the object
         void displaydata(){
             cout<<"Name :" << name <<"\n";
             cout<<"Average : " << average <<"\n";
@@ -56,8 +62,11 @@ class Student{
 
 };
 
+
+//Main loop or entry function
 int main(){
 
+    //initializing value
     int n;
 
     cout<<"How many Data you want to enter : ";
