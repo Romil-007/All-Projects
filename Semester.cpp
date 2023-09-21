@@ -82,21 +82,14 @@ int main(){
 
         if (stud[i].eligiblitycheck() == true){
 
-            cout<<stud[i].name<<"is eligible for next semester"<<"\n";
+            cout<<stud[i].name<<" is eligible for next semester"<<"\n";
         }
         else {
 
-            cout<<stud[i].name<<"Not eligible"<<"\n";
+            cout<<stud[i].name<<" is Not eligible"<<"\n";
         }
 
     }
     
-    
-
-
-    
-
-
-
-    return 0;
+      return 0;
 }
