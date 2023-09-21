@@ -3,7 +3,7 @@
 using namespace std;
 
 //Main execution
-int main( ) {
+int main() {
 
     //Declaring variables
     int a , fact = 1 , b=0 ;
