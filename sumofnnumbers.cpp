@@ -1,7 +1,10 @@
+//using standard i/o method
 #include <iostream>
 
+//Standard scope for the code
 using namespace std;
 
+//Returning integer on the main entry function
 int main(){
     int a,b = 0 , i = 1;
 
@@ -16,6 +19,12 @@ int main(){
         ++i;
     }
     cout<<"sum is "<<b <<"\n";
+
+    return 0;
+}
+
+int main(){
+    cout<<"Hey";
 
     return 0;
 }

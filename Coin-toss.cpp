@@ -18,7 +18,7 @@ int main(){
     //Letting user initiate the coin toss
     cout<<"Do you want to start coin toss(y/n)?";
     cin>>c;
-    if(c=="y"){
+    if(c=="y" || c == "Y"){
     
     sleep(2);
 
