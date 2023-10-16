@@ -12,6 +12,10 @@ int main(){
     //streaming to get some input to work upon
     cout<<"Write 1st number ";
     cin>>a;
+    if (a<0) {
+        cout<<"Error received an negative number";
+        return 0; // You can use any non-zero value here
+    }
     cout<<"Write 2nd number ";
     cin>>b;
     cout<<"Write 3rd number ";
@@ -31,5 +35,5 @@ int main(){
 
 
     //closing the main loop before the braces
-    return 0;
+    return -1;
 }

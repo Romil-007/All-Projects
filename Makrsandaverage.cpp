@@ -1,7 +1,10 @@
+//Including the Input and output stream
 #include <iostream>
 
+//std scope
 using namespace std;
 
+//Entry point
 int main(){
     int n = 0;
     
@@ -11,9 +14,6 @@ int main(){
     int arr[n];
     int marks = 0;
     int average = 0;
-
-
-
 
     for (int i = 0 ; i < n ; i++){
 
